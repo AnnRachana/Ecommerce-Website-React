@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Titillium+Web&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+.card-text-cart {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.brandcheck::-webkit-scrollbar {
+  display: none;
+}
+
+.brandcheck {
+  scrollbar-width: none;
+}
+
+.overflow-x-scroll-hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Transparent horizontal scrollbar */
+.overflow-x-scroll-transparent::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+/* Hide vertical scrollbar but allow scrolling */
+.overflow-y-scroll-hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Transparent vertical scrollbar */
+.overflow-y-scroll-transparent::-webkit-scrollbar {
+  background-color: transparent;
+}
+/* "brandcheck flex  flex-col-reverse px-2 py-1 overflow-x-scroll sm:px-5 lg:px-0 " */
+/* #app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+/* Styles for Swiper Slide Content */
+.slide-content {
+  position: relative;
+}
+
+.slide-content img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+/* Custom Styles for Swiper Slides */
+.custom-slide {
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+/* a:hover {
+  text-decoration: underline;
+} */
+.ourbrand {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+.ourbrand::-webkit-scrollbar {
+  display: none;
+}
+

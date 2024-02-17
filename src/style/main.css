@@ -1,0 +1,58 @@
+
+.btn {
+	border: none;
+	outline: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.shopping-cart-btn {
+
+	display: flex;
+}
+
+.product-count {
+	margin-left: -3px;
+	margin-top: -2px;
+	width: 15px;
+	height: 15px;
+	border-radius: 12px;
+	background-color:#ff0000;
+	overflow: hidden;
+	font-size: 0.6rem;
+	padding-bottom:1rem ;
+	font-weight: 700;
+	color: white;
+}
+
+
+
+
+
+
+.rating {
+	display: flex;
+	/* z-index: -1; */
+}
+
+.star {
+	width: 0.8rem;
+	height: 1.2rem;
+	position: relative;
+}
+
+.starEmpty,
+.starFull {
+	font-size: 0.7rem;
+	position: absolute;
+	overflow: hidden;
+	color: rgb(224, 197, 106);
+}
+
+
+
+.buttons .btn:hover {
+	background-color: gray;
+	color: #fff;
+}
+
